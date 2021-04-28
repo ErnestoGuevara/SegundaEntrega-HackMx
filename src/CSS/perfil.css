@@ -1,0 +1,102 @@
+.contenedor-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+
+.contenedor-principal .contenedor-perfil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 4rem;
+}
+
+.contenedor-principal .contenedor-perfil img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 4rem;
+}
+
+.contenedor-principal .contenedor-perfil .informacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+   margin-right: 4rem;
+}
+
+.nombre-sexo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.nombre p{
+    margin-right: 15rem;
+}
+
+.curp-año{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.curp p{
+    margin-right: 15rem;
+}
+
+.fecha-seccion-vigencia{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+
+@media (max-width: 768px){
+
+    .contenedor-principal{
+        display:block;
+    }
+    .contenedor-principal .contenedor-perfil{
+        margin-top: 15rem;
+        flex-direction: column;
+
+        
+    }
+
+    .contenedor-principal .contenedor-perfil img{
+        width: 100px;
+    }
+    .contenedor-principal .contenedor-perfil .informacion{ 
+        margin-right: 0;
+        margin-left: 3rem;
+    }
+
+
+    .nombre-sexo{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nombre p{
+        margin-right: 0;
+    }
+    .curp-año{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .curp p{
+        margin-right: 0;
+    }
+    .fecha-seccion-vigencia{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}

@@ -1,0 +1,82 @@
+.contenedor-scanner{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+
+
+.conteiner-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    
+}
+.conteiner-top h3{
+    
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+}
+
+.camara{
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+/* GENERADOR QR */
+.generador-QR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.MuiButtonBase-root{
+    margin-bottom: 0 !important;
+    margin-top: 2rem  !important;
+}
+
+@media (max-width: 768px) {
+    .contenedor-scanner{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+    }
+    .camara{
+        margin-bottom: 0;
+    }
+    a img{
+        padding: 0;
+    }
+    .MuiTypography-h1{
+        padding: 0;
+    }
+    section{
+        width: 240px !important;
+    }
+    .MuiGrid-root{
+        height: 0;
+    }
+
+    canvas{
+        width: 240px !important;
+        height: 240px !important;
+    }
+    .generador-QR{
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+    .botongenerar{
+        height: 50px;
+    }
+  }
