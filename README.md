@@ -1,3 +1,5 @@
+Se adjuntaron 4 QR que es de los 4 integrantes los cuales simulan la comunicación que deberia existir entre la BDD y el usuario. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
